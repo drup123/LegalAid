@@ -25,15 +25,18 @@ LegalAid is a web-based platform designed to streamline legal assistance service
 
 ## 🛠️ Tech Stack
 
-| Layer         | Technology                        |
-|---------------|-----------------------------------|
-| Backend       | Java, Spring MVC, Hibernate       |
-| Frontend      | JSP, HTML, CSS                    |
-| Database      | MySQL                             |
-| ORM Framework | Hibernate                         |
-| Architecture  | MVC (Model-View-Controller)       |
-| Build Tool    | Maven                             |
-| Server        | Apache Tomcat                     |
+| Layer               | Technology/Component                   |
+| ------------------- | -------------------------------------- |
+| Backend             | Java, Spring MVC, Hibernate            |
+| Frontend            | JSP, HTML, CSS                         |
+| Database            | MySQL                                  |
+| ORM Framework       | Hibernate                              |
+| Dispatcher Servlet  | `spring-servlet.xml` (Spring MVC Core) |
+| Configuration Files | `web.xml`, `config.xml`                |
+| Architecture        | MVC (Model-View-Controller)            |
+| Build Tool          | Maven                                  |
+| Server              | Apache Tomcat                          |
+
 
 ---
 
@@ -51,13 +54,18 @@ LegalAid is a web-based platform designed to streamline legal assistance service
 
 LegalAid/
 ├── src/
-│ ├── controller/
-│ ├── model/
-│ ├── dao/
-│ ├── service/
+│   ├── controller/            
+│   ├── model/                 
+│   ├── dao/                   
+│   ├── service/               
+│   ├── config/
+│   │   ├── spring-servlet.xml  
+│   │   └── config.xml          
 ├── WebContent/
-│ ├── jsp/
-│ ├── css/
-│ └── WEB-INF/
-├── pom.xml
-└── README.md
+│   ├── jsp/                   
+│   ├── css/                    
+│   └── WEB-INF/
+│       └── web.xml             
+├── pom.xml                    
+└── README.md                 
+
