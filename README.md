@@ -42,11 +42,11 @@ LegalAid is a web-based platform designed to streamline legal assistance service
 
 ## 📸 Screenshots
 
-> *(You can add actual screenshots here once uploaded to `/screenshots` or use markdown image links)*
-
-- Citizen case request form  
-- Lawyer appointment dashboard  
-- Admin panel for managing users
+<img width="1919" height="860" alt="Screenshot 2025-07-29 010511" src="https://github.com/user-attachments/assets/d273e56f-a05b-4485-a0d9-ccc4f089bde0" />
+<img width="1919" height="868" alt="Screenshot 2025-07-29 010528" src="https://github.com/user-attachments/assets/3e6f2954-e36f-413f-af1b-b51bb95a9b01" />
+<img width="1919" height="851" alt="Screenshot 2025-07-29 010755" src="https://github.com/user-attachments/assets/a26bf1e9-d821-4452-8925-99d8bb6b2edd" />
+<img width="1919" height="858" alt="Screenshot 2025-07-29 011017" src="https://github.com/user-attachments/assets/ce0f4479-cad9-411f-93d4-0d2aeb4a862d" />
+<img width="1919" height="816" alt="Screenshot 2025-07-29 011135" src="https://github.com/user-attachments/assets/0367cea0-4c23-4c41-818e-bb65c2ecfeb5" />
 
 ---
 
